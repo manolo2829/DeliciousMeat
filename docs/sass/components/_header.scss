@@ -2,8 +2,9 @@
 @import '../base/variables';
 
 #header{
-    background-color: $bg-gray;
-    
+    position: fixed;
+    width: 100%;
+    z-index: 1;
     .header__container{
         padding: 0 20px;
         height: 60px;
@@ -51,6 +52,7 @@
                         width: 100%;
                         text-align: end;
                         padding: 10px 0;
+                        transition: all 1s;
                         &:hover{
                             background-color: #fff;
                         }
@@ -78,6 +80,7 @@
                         flex-direction: row;
                         justify-content: end;
                         height: 60px;
+                        background-color: transparent;
                         li{
                             display: flex;
                             justify-content: center;
@@ -85,6 +88,14 @@
                             a{
                                 font-size: 14px;
                                 color: $color-gray;
+                            }
+
+                            &:hover{
+                                background-color: transparent;
+                                a{
+                                    color: $color-white;
+                                    text-decoration: underline;
+                                }
                             }
                         }
                     }
