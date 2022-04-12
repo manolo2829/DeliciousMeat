@@ -20,7 +20,7 @@
   margin: auto;
 }
 
-#menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #head .head__container .head__media .head__div, #head .head__container .head__media, #header .header__container .header__ul, #header .header__container div {
+#menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #head .head__container .head__media .head__div, #head .head__container .head__media, #header .header__container .header__ul, #header .header__container div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +131,7 @@
   margin: auto;
 }
 
-#menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #head .head__container .head__media .head__div, #head .head__container .head__media, #header .header__container div, #header .header__container .header__ul {
+#menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #head .head__container .head__media .head__div, #head .head__container .head__media, #header .header__container div, #header .header__container .header__ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -265,7 +265,7 @@
   margin: auto;
 }
 
-#menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div {
+#menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -367,7 +367,7 @@
   margin: auto;
 }
 
-#menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div {
+#menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -427,7 +427,7 @@
   margin: auto;
 }
 
-#menu .menu__container .container__type .cards__type .card__container .card__body, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card {
+#menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -485,13 +485,29 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+#menu .menu__container .container__type .container__arrows {
+  width: 100%;
+  padding: 20px 0;
+}
+#menu .menu__container .container__type .container__arrows i {
+  font-size: 30px;
+  color: #efb810;
+  border: 2px solid #efb810;
+  margin: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+#menu .menu__container .container__type .container__arrows i:hover {
+  background-color: #efb810;
+  color: #fff;
+}
 
 #header .header__container, #head .head__container, #about .about__container, #services .services__container, #menu .menu__container {
   max-width: 1140px;
   margin: auto;
 }
 
-#header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card, #menu .menu__container .container__type .cards__type .card__container .card__body {
+#header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card, #menu .menu__container .container__type .cards__type .card__container .card__body, #menu .menu__container .container__type .container__arrows {
   display: flex;
   justify-content: center;
   align-items: center;

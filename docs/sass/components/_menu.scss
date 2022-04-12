@@ -59,6 +59,24 @@
                     grid-template-columns: 1fr 1fr;
                 }
             }
+
+            .container__arrows{
+                width: 100%;
+                @extend %flexCenter;
+                padding: 20px 0;
+                i{
+                    font-size: 30px;
+                    color: $color-gold;
+                    border: 2px solid $color-gold;
+                    margin: 10px;
+                    padding: 5px 10px;
+                    border-radius: 10px;
+                    &:hover{
+                        background-color: $color-gold;
+                        color: $color-white;
+                    }
+                }
+            }
         }
     }
 }

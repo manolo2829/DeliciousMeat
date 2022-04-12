@@ -99,6 +99,11 @@ let limit = 7;
 const breakfastContainer = document.querySelector('.cards__breakfast')
 const lunchContainer = document.querySelector('.cards__lunch')
 
+const previousBreakfast = document.querySelector('#breakfast__prev')
+const nextBreakfast = document.querySelector('#breakfast__next')
+
+// EVENT
+
 // FUNCTION
 
 function generatorCard(id) {
@@ -146,6 +151,12 @@ function createCard(card){
         lunchContainer.appendChild(cardContainer)
     }
 
+}
+
+function removeChildNodes(parent) {
+    while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+    }
 }
 
 generatorCards(offset, limit)
