@@ -1,55 +1,109 @@
 const breakfast = [
     {
+        type: 'breakfast',
         title: 'Coffe with pancakes',
         description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
         price: '16'
     },
     {
+        type: 'breakfast',
         title: 'Coffe with pancakes',
         description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
         price: '16'
     },
     {
+        type: 'breakfast',
         title: 'Coffe with pancakes',
         description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
         price: '16'
     },
     {
+        type: 'breakfast',
         title: 'Coffe with pancakes',
         description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
         price: '16'
     },
     {
+        type: 'breakfast',
         title: 'Coffe with pancakes',
         description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
         price: '16'
     },
     {
+        type: 'breakfast',
         title: 'Coffe with pancakes',
         description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
         price: '16'
     },
     {
+        type: 'breakfast',
         title: 'Coffe with pancakes',
         description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
         price: '16'
     },
     {
+        type: 'breakfast',
         title: 'Coffe with pancakes',
         description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
         price: '16'
     }
 ]
 
+const lunch = [
+    {
+        type: 'lunch',
+        title: 'roast with vegetables',
+        description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
+        price: '21'
+    },{
+        type: 'lunch',
+        title: 'roast with vegetables',
+        description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
+        price: '21'
+    },{
+        type: 'lunch',
+        title: 'roast with vegetables',
+        description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
+        price: '21'
+    },{
+        type: 'lunch',
+        title: 'roast with vegetables',
+        description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
+        price: '21'
+    },{
+        type: 'lunch',
+        title: 'roast with vegetables',
+        description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
+        price: '21'
+    },{
+        type: 'lunch',
+        title: 'roast with vegetables',
+        description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
+        price: '21'
+    },{
+        type: 'lunch',
+        title: 'roast with vegetables',
+        description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
+        price: '21'
+    },{
+        type: 'lunch',
+        title: 'roast with vegetables',
+        description: 'lorem ipsum doctor sit amel concoctetur apsinumbe',
+        price: '21'
+    },
+]
+
 let offset = 0;
 let limit = 7;
 
 const breakfastContainer = document.querySelector('.cards__breakfast')
+const lunchContainer = document.querySelector('.cards__lunch')
 
 // FUNCTION
 
 function generatorCard(id) {
     createCard(breakfast[id])
+    createCard(lunch[id])
 }
 
 function generatorCards(offset, limit) {
@@ -86,7 +140,11 @@ function createCard(card){
     cardBody.appendChild(cardSeparator)
     cardBody.appendChild(cardPrice)
     cardContainer.appendChild(cardBody)
-    breakfastContainer.appendChild(cardContainer)
+    if( card.type === 'breakfast'){
+        breakfastContainer.appendChild(cardContainer)
+    }else if( card.type === 'lunch'){
+        lunchContainer.appendChild(cardContainer)
+    }
 
 }
 
