@@ -61,10 +61,56 @@
                 </div>
             </div>
         </section>
+        <section id="about">
+            <div class="about__container">
+                <div class="container__img">
+                    <img src="./img/about1.jpg" alt="">
+                    <img src="./img/about2.jpg" alt="">
+                    <img src="./img/about3.jpg" alt="">
+                </div>
+                <div class="container__text">
+                    <p>Discover <span class="gold">Our story</span></p>
+
+                    <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias error, ab, eveniet voluptatum accusamus omnis ut nostrum, assumenda minima nulla quo odit et est vel fugiat. Quod magni sint neque.</h2>
+
+                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium architecto dolore ducimus, esse natus dolorum illo voluptas? Maiores et amet suscipit adipisci maxime veritatis omnis, exercitationem sed voluptates, magnam placeat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex corporis aliquam nulla aperiam ut quaerat accusantium excepturi fuga temporibus id modi amet veniam, consequuntur ratione maxime nihil quos? Dolores, sed?</h3>
+
+                    <button>About Us</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="services__container">
+                <p class="container__title">Our <span class="gold">Services</span></p>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus rem, beatae non quaerat quasi eius sed eum tenetur consequuntur incidunt ad? Quos illum ab perspiciatis, sint rem exercitationem consequuntur accusantium.</h3>
+                <div class="container__cards">
+                    <div class="card">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magnam voluptatum veniam, porro molest</p>
+                    </div>
+                    <div class="card">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magnam voluptatum veniam, porro molest</p>
+                    </div>
+                    <div class="card">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magnam voluptatum veniam, porro molest</p>
+                    </div>
+                    <div class="card">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias magnam voluptatum veniam, porro molest</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- SCRIPTS -->
 
     <script src="https://kit.fontawesome.com/a6528d3960.js" crossorigin="anonymous"></script>
+
+    <script>
+        const header = document.querySelector('#header')
+        window.addEventListener('scroll', function(){
+            header.classList.toggle('abajo', window.scrollY>50)
+        })
+    </script>
 </body>
 </html>
