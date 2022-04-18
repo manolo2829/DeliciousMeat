@@ -12,19 +12,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
-#footer .footer__container, #menu .menu__container, #services .services__container, #about .about__container, #head .head__container, #header .header__container {
+#footer .footer__container, #map .map__fondo .map__container, #menu .menu__container, #services .services__container, #about .about__container, #head .head__container, #header .header__container {
   max-width: 1140px;
   margin: auto;
 }
 
-#menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #head .head__container .head__media .head__div, #head .head__container .head__media, #header .header__container .header__ul, #header .header__container div {
+#footer .footer__container div, #menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #head .head__container .head__media .head__div, #head .head__container .head__media, #header .header__container .header__ul, #header .header__container div {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -113,7 +121,7 @@
   }
   #header .header__container .header__ul .ul__bars ul li a {
     font-size: 14px;
-    color: #8b8989;
+    color: #fff;
   }
   #header .header__container .header__ul .ul__bars ul li:hover {
     background-color: transparent;
@@ -128,14 +136,20 @@
   background-color: #474b4eb5;
 }
 
-#footer .footer__container, #menu .menu__container, #services .services__container, #about .about__container, #head .head__container, #header .header__container {
+#footer .footer__container, #map .map__fondo .map__container, #menu .menu__container, #services .services__container, #about .about__container, #head .head__container, #header .header__container {
   max-width: 1140px;
   margin: auto;
 }
 
-#menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #head .head__container .head__media .head__div, #head .head__container .head__media, #header .header__container div, #header .header__container .header__ul {
+#footer .footer__container div, #menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #head .head__container .head__media .head__div, #head .head__container .head__media, #header .header__container div, #header .header__container .header__ul {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -262,14 +276,20 @@
   }
 }
 
-#footer .footer__container, #menu .menu__container, #services .services__container, #about .about__container, #header .header__container, #head .head__container {
+#footer .footer__container, #map .map__fondo .map__container, #menu .menu__container, #services .services__container, #about .about__container, #header .header__container, #head .head__container {
   max-width: 1140px;
   margin: auto;
 }
 
-#menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div {
+#footer .footer__container div, #menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -364,14 +384,20 @@
   }
 }
 
-#footer .footer__container, #menu .menu__container, #services .services__container, #header .header__container, #head .head__container, #about .about__container {
+#footer .footer__container, #map .map__fondo .map__container, #menu .menu__container, #services .services__container, #header .header__container, #head .head__container, #about .about__container {
   max-width: 1140px;
   margin: auto;
 }
 
-#menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div {
+#footer .footer__container div, #menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #services .services__container .container__cards .card, #services .services__container .container__cards, #services .services__container, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -424,14 +450,20 @@
   font-size: 14px;
 }
 
-#footer .footer__container, #menu .menu__container, #header .header__container, #head .head__container, #about .about__container, #services .services__container {
+#footer .footer__container, #map .map__fondo .map__container, #menu .menu__container, #header .header__container, #head .head__container, #about .about__container, #services .services__container {
   max-width: 1140px;
   margin: auto;
 }
 
-#menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card {
+#footer .footer__container div, #menu .menu__container .container__type .container__arrows, #menu .menu__container .container__type .cards__type .card__container .card__body, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -504,14 +536,90 @@
   color: #fff;
 }
 
-#footer .footer__container, #header .header__container, #head .head__container, #about .about__container, #services .services__container, #menu .menu__container {
+#footer .footer__container, #map .map__fondo .map__container, #header .header__container, #head .head__container, #about .about__container, #services .services__container, #menu .menu__container {
   max-width: 1140px;
   margin: auto;
 }
 
-#header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card, #menu .menu__container .container__type .cards__type .card__container .card__body, #menu .menu__container .container__type .container__arrows {
+#footer .footer__container div, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card, #menu .menu__container .container__type .cards__type .card__container .card__body, #menu .menu__container .container__type .container__arrows {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about .about__container .container__text p .gold {
+  color: #efb810;
+}
+
+#map {
+  background: url("../img/map.png");
+  position: relative;
+}
+#map .map__fondo {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.658);
+}
+#map .map__fondo .map__container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+#map .map__fondo .map__container .container__text {
+  background-color: rgba(0, 0, 0, 0.534);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#map .map__fondo .map__container .container__text p {
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  padding: 20px;
+}
+#map .map__fondo .map__container .container__text p .gold {
+  color: #efb810;
+}
+#map .map__fondo .map__container .container__text h5 {
+  padding: 30px;
+  width: 80%;
+  font-weight: lighter;
+  font-size: 18px;
+}
+#map .map__fondo .map__container .container__map .mapouter iframe {
+  height: 100%;
+}
+@media (min-width: 992px) {
+  #map .map__fondo .map__container {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0;
+  }
+}
+
+#footer .footer__container, #header .header__container, #head .head__container, #about .about__container, #services .services__container, #menu .menu__container, #map .map__fondo .map__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+#footer .footer__container div, #header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card, #menu .menu__container .container__type .cards__type .card__container .card__body, #menu .menu__container .container__type .container__arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -520,34 +628,67 @@
 }
 
 #footer {
-  background-color: #474b4e;
-  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 #footer .footer__container {
+  min-height: 100px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
-}
-#footer .footer__container .footer__ubi {
-  width: 100%;
-  height: 100%;
-  background-color: red;
-}
-#footer .footer__container .footer__design {
-  text-align: center;
   color: #fff;
 }
+#footer .footer__container div img {
+  width: 50px;
+  margin-right: 10px;
+}
+#footer .footer__container div p {
+  font-weight: lighter;
+  font-size: 18px;
+}
+#footer .footer__container .footer__link {
+  text-decoration: none;
+  color: #efb810;
+}
+#footer .footer__container .footer__link h6 {
+  font-weight: lighter;
+  font-size: 14px;
+}
+#footer .footer__container .footer__link:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+#footer .footer__container ul {
+  list-style: none;
+}
+#footer .footer__container ul li a {
+  margin: 5px;
+  color: #fff;
+}
+#footer .footer__container ul li a:hover {
+  color: #efb810;
+}
+@media (min-width: 992px) {
+  #footer .footer__container {
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
-#header .header__container, #head .head__container, #about .about__container, #services .services__container, #menu .menu__container, #footer .footer__container {
+#header .header__container, #head .head__container, #about .about__container, #services .services__container, #menu .menu__container, #map .map__fondo .map__container, #footer .footer__container {
   max-width: 1140px;
   margin: auto;
 }
 
-#header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card, #menu .menu__container .container__type .cards__type .card__container .card__body, #menu .menu__container .container__type .container__arrows {
+#header .header__container div, #header .header__container .header__ul, #head .head__container .head__media, #head .head__container .head__media .head__div, #services .services__container, #services .services__container .container__cards, #services .services__container .container__cards .card, #menu .menu__container .container__type .cards__type .card__container .card__body, #menu .menu__container .container__type .container__arrows, #footer .footer__container div {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+#footer .footer__container ul {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
